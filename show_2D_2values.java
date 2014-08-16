@@ -1,3 +1,14 @@
+/*
+reads a file, saves an image
+
+blue-white-red scale for visualisation of 2D fields
+fields must have at least 2 values, e.g. displacement U_x and displacement U_z, both are shown side by side
+
+input:
+1st line (dimensions): nx nz
+nx*nz lines: U_x U_z ...(any other values)
+*/
+
 import java.awt.Graphics2D;
 import java.awt.image.BufferedImage;
 import java.io.*;
